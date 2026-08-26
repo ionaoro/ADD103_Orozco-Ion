@@ -1,2 +1,5 @@
-/* General Page Styles*/
-body
+/* select tags directly to apply style*/
+h1{
+    color: #ad0606;
+  
+}
