@@ -4,7 +4,7 @@ h1{
 font-family: 'Courier New', Courier, monospace;
     font-size: 3rem;
     text-align: center;
-    margin-top: 0.5rem;
+    margin-top: 0.45rem;
 }
 .center-img{
     display: block;
@@ -12,15 +12,16 @@ font-family: 'Courier New', Courier, monospace;
     margin-right: auto;
     width: 50%;
 }
-p{ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 25px;
-    text-align:left
-    color:rgb(129, 129, 129);
+p{ font-family:'lucida sans';
+    font-size: 26px;
+    text-align:left;
+    color:rgb(255, 255, 255);
 }
 body{
     background-color: #ad0606;
     background-image: url("./images/site.png");
-    height:85vh;
+    height:90vh;
     background-size: cover;
     background-position: center;
 }
+/*adjust backgrond opacity*/ 
