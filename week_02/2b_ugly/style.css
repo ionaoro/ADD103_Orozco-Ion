@@ -1,4 +1,4 @@
-/* select tags directly to apply style*/
+/* add your CSS here */
 h1{
     color: #ad0606;
 font-family: 'Courier New', Courier, monospace;
@@ -24,4 +24,12 @@ body{
     background-size: cover;
     background-position: center;
 }
-/*adjust backgrond opacity*/ 
+/*adjust background opacity*/ 
+h2{
+    color: #ad0606;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 0.45rem;
+/*Match to first header*/
+}
