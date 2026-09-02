@@ -2,7 +2,13 @@ h1{
     text-align: center;
     size: 24px;
 }
-td{
-    border:1px solid coral;
+tr{
+   border:1px solid rgb(0, 109, 29);
     height: 50px;
+    width: 50px; 
+}
+td{
+    border:1px solid rgb(0, 109, 29);
+    height: 50px;
+    width: 50px;
 }
