@@ -2,3 +2,7 @@ h1{
     text-align: center;
     size: 24px;
 }
+td{
+    border:1px solid coral;
+    height: 50px;
+}
