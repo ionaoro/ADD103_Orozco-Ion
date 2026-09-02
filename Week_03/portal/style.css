@@ -1,3 +1,10 @@
 body{
-    background-color: rgba(220, 69, 69, 0.79);
+    background-color: rgb(220, 69, 69);
+    size: 100px;
+}
+h1{
+    color: floralwhite;
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
 }
