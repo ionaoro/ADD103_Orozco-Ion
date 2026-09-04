@@ -2,7 +2,7 @@ body{
     background-color: rgb(220, 69, 69);
     size: 100px;
 }
-h1{
+h1, h2, h3{
     color: floralwhite;
     font-size: larger;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -15,4 +15,10 @@ p{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
     font-size: 30px;
+}
+.img-center{
+    width:25%;
+    height:auto;
+    display:block;
+    margin:10px auto;
 }
