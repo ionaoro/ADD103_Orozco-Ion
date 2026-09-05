@@ -40,10 +40,10 @@ background-color: rgba(219, 200, 200, 0.815);
 p a{
     margin-left: 50px;
 }
-#Black{
+#Black {
     color: black;
     font-family: 'Times New Roman', Times, serif;
-    size: 45px;
+    font-size: 50px;
     background-color: white;
     border: 3px solid black;
 }
