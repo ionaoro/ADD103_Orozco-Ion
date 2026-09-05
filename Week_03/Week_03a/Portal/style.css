@@ -1,6 +1,7 @@
 body{
     background-color: rgb(177, 27, 27);
     size: 100px;
+    /**set background color to red**/
 }
 h1{
     color: floralwhite;
@@ -23,6 +24,7 @@ p{
     margin:10px auto;
     border: 3px solid rgb(0, 0, 0);
 }
+/*adjust images as needed*/
 h2, h3{
     color: floralwhite;
     font-size: large;
@@ -47,3 +49,4 @@ p a{
     background-color: white;
     border: 3px solid black;
 }
+/* error: the text is not visible because the background color is white and the text color is also white. */
