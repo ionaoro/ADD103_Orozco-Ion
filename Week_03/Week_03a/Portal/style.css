@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(220, 69, 69);
+    background-color: rgb(177, 27, 27);
     size: 100px;
 }
 h1{
@@ -17,8 +17,33 @@ p{
     font-size: 30px;
 }
 .img-center{
-    width:23%;
+    width:47%;
     height:auto;
     display:block;
     margin:10px auto;
+    border: 3px solid rgb(0, 0, 0);
+}
+h2, h3{
+    color: floralwhite;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left;
+    font-size: 35px;
+}
+.container{
+width:85%;
+padding: 10px;
+margin:20px auto;
+border: 6px solid rgba(219, 200, 200, 0.815);
+background-color: rgba(219, 200, 200, 0.815);
+}
+p a{
+    margin-left: 50px;
+}
+#Black{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    size: 45px;
+    background-color: white;
+    border: 3px solid black;
 }
