@@ -1,0 +1,8 @@
+:root{
+--primary-color:black;
+--lighter-text:var(--lighter-text)
+}
+
+body{
+    background-color: chocolate;
+}
