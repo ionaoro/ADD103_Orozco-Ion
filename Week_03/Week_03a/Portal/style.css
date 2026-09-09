@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(177, 27, 27);
+    size: 100px;
+    /**set background color to red**/
+}
+h1{
+    color: floralwhite;
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size:83px;
+}
+p{
+    color: floralwhite;
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 30px;
+}
+.img-center{
+    width:47%;
+    height:auto;
+    display:block;
+    margin:10px auto;
+    border: 3px solid rgb(0, 0, 0);
+}
+/*adjust images as needed*/
+h2, h3{
+    color: floralwhite;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left;
+    font-size: 35px;
+}
+.container{
+width:85%;
+padding: 10px;
+margin:20px auto;
+border: 6px solid rgba(219, 200, 200, 0.815);
+background-color: rgba(219, 200, 200, 0.815);
+}
+p a{
+    margin-left: 50px;
+}
+#Black {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    background-color: white;
+    border: 3px solid black;
+}
+/* error: the text is not visible because the background color is white and the text color is also white. */
