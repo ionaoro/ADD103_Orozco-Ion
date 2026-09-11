@@ -12,3 +12,19 @@ h1{
     font-size:50px;
 text-align:center;
 }
+ol{
+    font-weight:bolder;
+    font-size:24px;
+}
+ol ol {
+  list-style-type: lower-alpha;
+}
+ul{
+    font-weight:bolder;
+    list-style-type: square;
+    font-size:24px;
+    
+}
+ul ul {
+  list-style-type: circle;
+}
