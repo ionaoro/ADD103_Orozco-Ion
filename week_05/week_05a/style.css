@@ -1,0 +1,20 @@
+nav {
+    display: flex;
+    justify-content: space-between; /* Logo Left, Links Right */
+    align-items: center;            /* Vertical Center */
+
+    background-color: #333;
+    padding: 10px 20px;
+}
+/* The display: flex; property turns nav into a flex container,
+   aligning children horizontally. */
+
+/* THE CHILDREN (Flex Items) */
+.logo {
+    font-weight: bold;
+    color: white;
+}
+.links a {
+    margin-left: 15px;
+    color: #ccc;
+}
