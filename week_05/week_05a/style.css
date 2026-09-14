@@ -3,7 +3,7 @@ nav {
     justify-content: space-between; /* Logo Left, Links Right */
     align-items: center;            /* Vertical Center */
 
-    background-color: #333;
+    background-color: #a52a2acb;
     padding: 10px 20px;
 }
 /* The display: flex; property turns nav into a flex container,
@@ -16,5 +16,13 @@ nav {
 }
 .links a {
     margin-left: 15px;
-    color: #ccc;
+    color: #168f40;
+}
+.flexbox-container{
+    margin:10px;
+    padding:20px;
+    font-size: 24px;
+}
+.card{
+
 }
