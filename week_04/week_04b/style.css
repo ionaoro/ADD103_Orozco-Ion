@@ -42,7 +42,7 @@ Aside{
 }
 .column-card {
     display: inline-block;
-    /* width:50%; */
+    /* width:25%; */
     border: 2px solid #ad0606;
     border-radius: 6px; /* Rounded corners */
     padding: 26px;
