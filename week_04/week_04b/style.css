@@ -1,16 +1,30 @@
+h1{
+    font-family: 'Arial', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: var(--brand-color);
+}
+h2{
+    font-family: 'Arial', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: var(--secondary-color);
+}
 :root {
     --brand-color:#ad0606;
+    --secondary-color: rgb(255, 255, 255);
+    font-family: 'Arial', sans-serif;
 } /* This is creating a variable named --brand-color at the root level (accessible everywhere) */
 * {
     box-sizing: border-box; /* Spacing reset */
 } /* The asterisk (*) is a universal selector targeting all tags; box-sizing makes width calculations include border and padding */
 .column-card {
     display: inline-block;
-    width: 48%;
+    width: 43%;
     border: 1px solid #ddd;
-    border-radius: 8px; /* Rounded corners */
-    padding: 20px;
-    margin: 1%;
+    border-radius: 6px; /* Rounded corners */
+    padding: 26px;
+    margin: 2%;
 }
 .tooltip {
     position: relative;
@@ -37,3 +51,6 @@
     visibility: visible;
     opacity: 1;
 } /* This targets the nested .tooltiptext child element ONLY when the parent .tooltip element is hovered over */
+body{
+    background-color:rgba(0, 0, 0, 0.877);
+}
