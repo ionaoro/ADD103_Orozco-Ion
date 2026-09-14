@@ -10,6 +10,12 @@ h2{
     text-align: center;
     color: var(--secondary-color);
 }
+p{
+    font-family: times new roman, sans-serif;
+    font-size: 23px;
+    text-align: center;
+    color: var(--secondary-color);
+}
 :root {
     --brand-color:#ad0606;
     --secondary-color: rgb(255, 255, 255);
@@ -18,13 +24,29 @@ h2{
 * {
     box-sizing: border-box; /* Spacing reset */
 } /* The asterisk (*) is a universal selector targeting all tags; box-sizing makes width calculations include border and padding */
+Aside{
+    h3{
+        font-family: 'Arial', sans-serif;
+        font-size: 25px;
+        text-align: center;
+        color: var(--secondary-color);
+     
+    }
+    float: right;
+    background-color: #333;
+    width:32%;
+    padding 15px;
+    margin:2%;
+    border: 1px solid #ad0606;;
+}
 .column-card {
     display: inline-block;
     width: 43%;
-    border: 1px solid #ddd;
+    border: 2px solid #ad0606;
     border-radius: 6px; /* Rounded corners */
     padding: 26px;
     margin: 2%;
+    background-color: #333;
 }
 .tooltip {
     position: relative;
