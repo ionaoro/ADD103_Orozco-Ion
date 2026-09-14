@@ -10,9 +10,11 @@ body{
 margin: 16px;
 padding:5px;
 font-size: large;
-width:30%;
+text-align: center;
+width:46%;
 min-height: 200px;
 background-color:var(--accent);
+border: 7px solid var(--light);
 }
 H3{
     font-size: 25px;
@@ -32,4 +34,5 @@ H3{
     width:90%;
     display:block;
     margin:20px auto;
+    border: 2px solid black;
 }
