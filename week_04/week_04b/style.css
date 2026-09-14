@@ -35,14 +35,14 @@ Aside{
     }
     float: right;
     background-color: #e6af17;
-    width:36%
+    width:49%;
     padding: 15px;
     margin:8%;
     border: 1px solid #ad0606;;
 }
 .column-card {
     display: inline-block;
-    width: 40%;
+    /* width:50%; */
     border: 2px solid #ad0606;
     border-radius: 6px; /* Rounded corners */
     padding: 26px;
