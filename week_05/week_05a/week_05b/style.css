@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  background-color: rgba(252, 236, 8, 0.97);
+}
+
+.container div {
+  background-color: #0fcb47;
+  margin: 22px;
+  padding: 15px;
+  font-size: 30px;
+  align-items: center;
+  border-color: black;
+  border: 6px;
+}
