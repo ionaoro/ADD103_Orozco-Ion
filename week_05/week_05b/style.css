@@ -12,3 +12,14 @@
   border-color: black;
   border: 6px;
 }
+.hero{
+  margin: 25%;
+  padding:19%;
+  width: auto;
+}
+
+.hero-text{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 22px;
+  text-align: left;
+}
