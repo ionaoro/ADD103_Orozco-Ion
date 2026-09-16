@@ -28,11 +28,29 @@ H3{
   align-items: center;
      margin:10px;
     padding:20px;
-    font-size: 24px;
+    font-size: 29px;
+      color: azure;
 }
 .card img{
     width:90%;
     display:block;
     margin:20px auto;
     border: 2px solid black;
+}
+
+h1{
+    font-size: 50px;
+    font-family: 'Lucida Sans Unicode', sans-serif;
+    text-align: center;
+    color: var(--accent);
+    background-color: var(--light);
+    margin:0;
+    padding:0;
+}
+
+p{
+    font-family:'Lucida Grande';
+    font-weight: bold;
+    color: azure;
+  font-size: 30px;
 }
