@@ -6,6 +6,9 @@
 .container {
   display: flex;
   background-color: var(--dark);
+  border: 6px;
+  width: 40%;
+  margin: 0 auto;
 }
 
 .container div {
@@ -30,4 +33,6 @@
 }
 body{
   background-color: var(--light);
+  width: 100%;
+  height: 100%;
 }
