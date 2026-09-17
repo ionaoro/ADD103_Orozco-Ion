@@ -36,8 +36,9 @@ body{
   width: 100%;
   height: 100%;
 }
-hero-img{
-  width: 30%;
+.hero-img{
+  width:4px auto;
+  height: 4px auto;
   margin: 0 auto;
-  image-align: r;
+  align-items: center;
 }
