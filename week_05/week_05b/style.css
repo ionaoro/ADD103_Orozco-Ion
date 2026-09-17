@@ -37,8 +37,9 @@ body{
   height: 100%;
 }
 .hero-img{
-  width:4px auto;
-  height: 4px auto;
-  margin: 0 auto;
+  width: 5%;
+  height:5%;
   align-items: center;
+  border:4px;
+  border-color: var(--accent);
 }
