@@ -1,10 +1,15 @@
+.root{
+  --dark:rgb(25, 38, 156);
+  --light:rgb(36, 94, 219);
+  --accent:rgb(46, 45, 45);
+}
 .container {
   display: flex;
-  background-color: rgb(241, 137, 9);
+  background-color: var(--dark);
 }
 
 .container div {
-  background-color: #6a0ca0cf;
+  background-color: var(--accent);
   margin: 22px;
   padding: 15px;
   font-size: 30px;
@@ -22,4 +27,7 @@
   font-family: 'Courier New', Courier, monospace;
   font-size: 22px;
   text-align: left;
+}
+body{
+  background-color: var(--light);
 }
