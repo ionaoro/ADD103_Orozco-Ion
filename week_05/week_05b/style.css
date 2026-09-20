@@ -18,11 +18,11 @@
 .container {
   display: flex;
   background-color: rgb(25, 38, 156);
-  border: 6px;
-  border-color: black;
-  width: 25%;
-  margin: auto;
+  min-height: 150px;
+  width: 45%;
+  margin: 10px auto;
   flex-basis: 50%;
+  align-items: center;
 }
 
 .container div {
@@ -60,6 +60,7 @@ body{
   border:auto;
   border-color: rgb(46, 45, 45);
   flex-basis:50%;
+align-items: left;
 }
 /*THE WRAPPER*/
 .page-wrapper{
@@ -67,4 +68,17 @@ body{
   flex-direction: column;
   height: 60%;
   width:30%;
+}
+h1{
+  font-family:'Times New Roman', Times, serif;
+  font-size: 55px;
+  text-align: center;
+  color:azure;
+}
+p{
+  font-family:'Gill Sans', sans-serif;
+  font-size:32px;
+  text-align: center;
+  color:azure;
+  font-weight: bold;
 }
