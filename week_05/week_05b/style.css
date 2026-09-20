@@ -1,84 +1,68 @@
-
-.flex-container {
-  display: flex;
-  background-color: rgb(25, 38, 156);
-  border: 6px;
-  width: 40%;
-  margin: 0 auto;
-}
-.flex-div {
-  background-color: rgb(46, 45, 45);
-  margin: 14%;
-  padding: 15px;
-  font-size: 30px;
-  align-items: center;
-  border-color: black;
-  border: 6px;
-}
-.container {
-  display: flex;
-  background-color: rgb(25, 38, 156);
-  min-height: 150px;
-  width: 45%;
-  margin: 10px auto;
-  flex-basis: 50%;
-  align-items: center;
-}
-
-.container div {
-  background-color: rgb(46, 45, 45);
-  margin: 22px;
-  padding: 15px;
-  font-size: 30px;
-  align-items: center;
-  border-color: black;
-  border: 6px;
-  color: white;
-}
-.hero{
-  display: flex; align-items: center;
-  margin: 40%;
-  padding:10%;
-  width: 39%;
-}
-
-.hero-text{
-  font-family:'Gill Sans', sans-serif;
-  font-size: 22px;
-  text-align: center;
-  flex-basis:50%;
+:root{
+   --dark:rgb(187, 82, 21);
+   --light:rgba(238, 145, 108, 0.842);
+   --accent:rgb(255, 235, 144);
 }
 body{
-  background-color:rgb(36, 94, 219);
-  width: 100%;
-  height: 100%;
+    background-color:var(--dark);
 }
-.hero-img{
-  flex-grow: 1;
-  width: 20%;;
-  height: 20%;
-  border:auto;
-  border-color: rgb(46, 45, 45);
-  flex-basis:50%;
-align-items: left;
+.container{
+  width:40%;
+  margin:12px auto;
+  background-color: var(--accent);
+  align-items: flex-end;
 }
-/*THE WRAPPER*/
-.page-wrapper{
+.container-div{
+  margin:10px auto;
+  width:35%;
+  border:6px;
+  color:var(--light)
+}
+.card{
+margin: 16px;
+padding:5px;
+font-size: large;
+text-align: center;
+width:46%;
+min-height: 200px;
+background-color:var(--accent);
+border: 7px solid var(--light);
+}
+H3{
+    font-size: 25px;
+    font-family: monospace;
+    text-align: right;
+}
+.flexbox-container {
   display: flex;
   flex-direction: column;
-  height: 60%;
-  width:30%;
+  justify-content: space-around;
+  align-items: center;
+     margin:10px;
+    padding:20px;
+    font-size: 29px;
+      color: azure;
+      flex-wrap: wrap;
+}
+.card img{
+    width:90%;
+    display:block;
+    margin:20px auto;
+    border: 2px solid black;
 }
 h1{
-  font-family:'Times New Roman', Times, serif;
-  font-size: 55px;
-  text-align: center;
-  color:azure;
+    font-size: 50px;
+    font-family: 'Lucida Sans Unicode', sans-serif;
+    text-align: center;
+    color: var(--accent);
+    background-color: var(--light);
+    margin:0;
+    padding:0;
 }
 p{
-  font-family:'Gill Sans', sans-serif;
-  font-size:32px;
+    font-family:'Lucida Grande';
+    font-weight: bold;
+    color: var(--accent);
+  font-size: 30px;
   text-align: center;
-  color:azure;
-  font-weight: bold;
 }
