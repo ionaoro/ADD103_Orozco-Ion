@@ -11,6 +11,9 @@ body{
   margin:12px auto;
   background-color: var(--accent);
   align-items: flex-end;
+  button{align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+font-style: italic;}
 }
 .container-div{
   margin:10px auto;
@@ -65,4 +68,9 @@ p{
     color: var(--accent);
   font-size: 30px;
   text-align: center;
+}
+/* THE SIDEBAR (Fixed Width) */
+.sidebar {
+    width: 250px;
+    background: var(--light)
 }
