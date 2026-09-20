@@ -10,10 +10,8 @@ body{
   width:40%;
   margin:12px auto;
   background-color: var(--accent);
-  align-items: flex-end;
-  button{align-items: center;
-  font-family: Arial, Helvetica, sans-serif;
-font-style: italic;}
+  align-content: right;
+  
 }
 .container-div{
   margin:10px auto;
@@ -65,7 +63,7 @@ h1{
 p{
     font-family:'Lucida Grande';
     font-weight: bold;
-    color: var(--accent);
+    color: black;
   font-size: 30px;
   text-align: center;
 }
@@ -73,4 +71,5 @@ p{
 .sidebar {
     width: 250px;
     background: var(--light)
+    border-box= 25px;
 }
