@@ -19,8 +19,9 @@
   display: flex;
   background-color: rgb(25, 38, 156);
   border: 6px;
-  width: 40%;
-  margin: 0 auto;
+  border-color: black;
+  width: 25%;
+  margin: auto;
 }
 
 .container div {
@@ -64,5 +65,5 @@ body{
   display: flex;
   flex-direction: column;
   height: 60%;
-  width:30%:
+  width:30%;
 }
