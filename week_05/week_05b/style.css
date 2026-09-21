@@ -33,7 +33,6 @@ body{
     background:var(--dark);
 }
 div, header, aside, main,  footer {
-border:2px solid var(--accent);
 min-width:250px;
 min-height:200px;
 font-size: 45px;
@@ -103,7 +102,7 @@ footer{
   background:none;
   text-align: center;
   color:var(--accent)
- padding: 4px;
+ 
 }
 header{
   background: var(--light);
@@ -116,7 +115,8 @@ aside{
   padding:20px;
 }
 main{
-  flex-basis:80%;
+  flex-basis:85%;
   flex-grow:2;
   padding:20px;
+  margin-right:5%;
 }
