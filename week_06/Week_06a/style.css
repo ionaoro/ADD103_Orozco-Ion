@@ -1,0 +1,26 @@
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+}
+
+.root{
+    --color-ink:rgb(33, 30, 30);
+    --accent:rgba(84, 81, 81, 0.833);
+    --color-border:#ad0606;
+--color-muted:rgba(37, 36, 37, 0.829);
+}
+body{
+    background: var(--color-ink);
+    color:var(--accent)
+}
+.container{
+    width:90%;
+   max-width:1200px;
+    background: var(--accent);
+    margin:20px auto;
+    display:grid;
+    grid-template-areas:"header header" " menu content" "footer footer";
+ border:8px;
+    border-color:var(--color-border);
+}
