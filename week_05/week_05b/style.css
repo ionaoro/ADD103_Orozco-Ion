@@ -3,12 +3,34 @@
    --light:rgba(238, 145, 108, 0.842);
    --accent:rgb(255, 235, 144);
 }
+.hero{
+  display: flex;
+  align-items: center;
+  min-height: 400px;
+}
+.hero h1{
+  flex-basis:50% ;
+  flex-grow:1;
+  padding:20px;
+}
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin:0;
+}
 body{
-    background-color:var(--dark);
+    background:var(--dark);
+}
+div, header, aside, main,  footer {
+border:2px solid var(--accent);
+min-width:250px;
+min-height:200px;
+font-size: 45px;
 }
 .container{
-  width:40%;
-  margin:12px auto;
+  width:80%;
+  margin:20px auto;
+  max-width: 1200px;
   background-color: var(--accent);
   align-content: right;
   
@@ -33,6 +55,10 @@ H3{
     font-size: 25px;
     font-family: monospace;
     text-align: right;
+    color: var(--accent);
+    background-color: var(--light);
+    margin:0;
+    padding:0;
 }
 .flexbox-container {
   display: flex;
@@ -51,7 +77,7 @@ H3{
     margin:20px auto;
     border: 2px solid black;
 }
-h1{
+h1,h2{
     font-size: 50px;
     font-family: 'Lucida Sans Unicode', sans-serif;
     text-align: center;
@@ -59,17 +85,4 @@ h1{
     background-color: var(--light);
     margin:0;
     padding:0;
-}
-p{
-    font-family:'Lucida Grande';
-    font-weight: bold;
-    color: black;
-  font-size: 30px;
-  text-align: center;
-}
-/* THE SIDEBAR (Fixed Width) */
-.sidebar {
-    width: 250px;
-    background: var(--light)
-    border-box= 25px;
 }
