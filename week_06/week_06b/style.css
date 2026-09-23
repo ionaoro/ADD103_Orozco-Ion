@@ -1,0 +1,63 @@
+:root{
+--bg-color: rgb(50, 68, 122);
+--accent: rgb(78, 90, 227);
+--dark:rgba(29, 31, 45, 0.95);
+--font-color:rgb(240, 232, 232);
+--border:rgba(136, 136, 136, 0.963);
+--left-side:rgba(17, 114, 62, 0.815);
+}
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+body{
+    background: var(--bg-color);
+    font-size:x-large;
+}
+.container{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:20px;
+    background: var(--dark);
+    max-width: 1200px;
+    margin:0 auto;
+}
+.card{
+    background: var(--accent);
+    padding:15px;
+    border:1px solid var(--border);
+    margin:0 auto;
+}
+.hero{
+grid-column: span 4;
+color:var(--dark);
+text-align: center;
+min-height: 300px;
+}
+.left-side{
+    grid-column: span 1;
+    background: var(--left-side);
+    min-height: 400px;
+}
+.content{
+    grid-column: span 3;
+    min-height: 500px;
+    background: var(--border);
+    display:grid;
+    grid-template-columns: repeat(3,3fr);
+    gap:20px;
+    align-content: center auto;
+}
+h3{
+    text-align: center;
+    font-size:large;
+    font-weight: bold;
+    color:var(--font-color)
+}
+header{
+    text-align:center;
+    font-size:55px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:var(--font-color);
+}
