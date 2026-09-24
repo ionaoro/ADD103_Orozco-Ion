@@ -73,7 +73,7 @@ p{
 .photo-wall{
     display:grid;
     gap:15px;
-    repeat:(3, 1fr);
+ grid-template-columns: repeat(3, 1fr);
 }
 image{
     width:100%;
