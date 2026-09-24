@@ -72,8 +72,8 @@ p{
 }
 .photo-wall{
     display:grid;
-    repeat: ( 3, 1fr);
     gap:15px;
+    repeat:(3, 1fr);
 }
 image{
     width:100%;
