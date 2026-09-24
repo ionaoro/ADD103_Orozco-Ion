@@ -15,11 +15,17 @@
     grid-area: header;
     text-align: center;
 }
-h2{
+h1{
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    font-size:50px;
+    text-align: center;
+}
+h2,h3{
     text-align: center;
     font-size: 45px;
     font-family:Cambria, Cochin, Georgia, serif;
 }
+
 body{
     background: var(--color-ink);
     color:ghostwhite;
@@ -43,7 +49,10 @@ body{
 .container div{
    background:var(--dark); 
    padding:10px;
-   
+}
+.container div .header{
+    grid-area: header;
+text-align: center;
 }
 .container div.menu{
     grid-area: menu;
@@ -56,6 +65,7 @@ body{
   text-align: center;  
 }
 p{
+    padding: 20px;
     font-size: 25px;
     font-family: 'Lucida Sans Regular', sans-serif;
     text-align: center;
