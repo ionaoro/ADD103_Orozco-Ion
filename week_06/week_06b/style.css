@@ -45,7 +45,7 @@ min-height: 300px;
     grid-column: span 1;
     background-color: var(--left-side);
     min-height: 500px;
-    color: ghostwhite;
+    color: var(--font-color);
 }
 .content{
     grid-column: span 3;
@@ -79,4 +79,8 @@ background-color: var(--border);
 text-align: center;
 font-size: small;
 min-height: 50px;
+color: var(--font-color);
+}
+p{
+    text-align: center;
 }
