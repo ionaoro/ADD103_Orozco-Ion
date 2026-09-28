@@ -1,0 +1,13 @@
+/*color palette inspired by Tansformer's Megatron*/
+:root{
+--dark: #71706e;
+--accent: #a8a9ad;
+--light:#d8d8d8;
+--border: #781518;
+--dark-border:#4c0d0f;
+}
+body{
+    min-height: 100vh;
+    background: var(--dark);
+    color:whitesmoke;
+}
