@@ -1,4 +1,4 @@
-/*color palette inspired by Tansformer's Megatron*/
+/*color palette inspired by Tansformers' Megatron color-palette*/
 :root{
 --dark: #71706e;
 --accent: #a8a9ad;
@@ -36,5 +36,5 @@ padding:10px;
 text-align:center;
 font-size: 33px;
 margin-top:5px;
-border: 3px solid var(--light);
+border: 4.8px solid var(--light);
 }
