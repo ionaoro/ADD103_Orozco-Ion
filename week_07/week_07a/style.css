@@ -9,5 +9,27 @@
 body{
     min-height: 100vh;
     background: var(--dark);
+    font-family: monospace;
+    font-size: large;
     color:whitesmoke;
+}
+    @media (min-width:760px) {
+        body{
+background: var(--dark);
+        }
+    }
+
+table{
+    border-collapse: collapse;
+}
+.banner{
+    display:grid;
+    grid-template-columns: 1;
+    gap:20px;
+background-color: var(--dark-border);
+color:whitesmoke;
+padding:10px;
+text-align:center;
+margin-top:5px;
+border-bottom: 3px solid var(--light);
 }
