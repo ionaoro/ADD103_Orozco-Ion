@@ -1,0 +1,126 @@
+:root{
+    --main: rgb(0, 0, 0);
+    --accent:rgba(189, 179, 179, 0.87);
+    --left-side:rgba(20, 170, 65, 0.804);
+    --border:rgb(245, 245, 245);
+    --container:rgb(243, 191, 19);
+    --footer:rgb(233, 129, 10);
+    --mid-tone:rgba(133, 127, 127, 0.589);
+}
+/* MOBILE (Default) - 1 Column */
+.product-grid {
+    display: grid;
+    grid-template-columns: 1fr; 
+    gap: 20px;
+}
+
+/* TABLET - 2 Columns */
+@media (min-width: 600px) {
+    .product-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* DESKTOP - 4 Columns */
+@media (min-width: 1000px) {
+    .product-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+/*Media queries*/
+body{
+    background: var(--main);
+    color:black;
+    font-size:larger;
+    font-family:Impact, sans-serif;
+}
+.header{
+    background: var(--footer);
+    min-height: 30px;
+    min-width: 30px;
+    border:5px solid var(--border);
+    border-radius:50%;
+    text-align: center;
+    font-size: 50px;
+    font-weight:bold;
+    /*the color inside the text*/
+    -webkit-text-fill-color:black;
+    /*the outline thickness and color*/
+    -webkit-text-stroke:0.2px rgb(195, 33, 4);
+}
+/*text outline sourced from google search*/
+.left-side{
+    background: var(--left-side);
+    max-height:45%;
+    max-width:25%;
+    margin:6px;
+    border:var(--border) 2px solid;
+    text-align: center;
+    font-size:26px;
+}
+.left-side img{
+    width:70%;
+    height:70%;
+    object-fit:cover;
+    margin:5px;
+}
+p,
+a,
+h1
+h2
+h3{
+    font-family:Impact, sans-serif;
+    color: var(--main);
+    font-size: 22px;
+}
+.photo-wall{
+display: grid;
+columns: repeat (3,1fr);
+gap:15px;
+}
+ .photo-wall img{
+    max-width: 100%;
+    height: auto;
+    display:block;
+    object-fit: cover;
+    border-radius: 2px;
+}
+.container{
+    width:90%;
+   max-width:1200px;
+    background: var(--left-side);
+    min-height:500px;
+    margin:20px auto;
+    display:grid;
+      grid-template-areas:"header header" " menu content" "footer footer";
+    grid-template-columns:14px;
+     border:6px solid;
+    border-color:var(--container);
+     display:grid;
+    grid-template-columns: 3fr 3fr;
+    gap:3px;
+    padding:10px;
+}
+.container div{
+   background: var(--mid-tone);
+   padding:10px;
+}
+.container div.footer{
+  grid-area:footer;
+  text-align: center;  
+  max-height:100%;
+  max-width:100%;
+  margin:0;
+}
+.container div.header{
+  grid-area:header;
+  text-align: center;  
+}
+.container div.menu{
+  grid-area:menu;
+  text-align: center;  
+}
+.container div.content{
+  grid-area:content;
+  text-align: center;  
+}
