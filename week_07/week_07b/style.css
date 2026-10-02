@@ -80,7 +80,7 @@ gap:15px;
 }
  .photo-wall img{
     max-width: 100%;
-    height: auto;
+    max-height:100%;
     display:block;
     object-fit: cover;
     border-radius: 2px;
@@ -105,6 +105,13 @@ gap:15px;
    background: var(--mid-tone);
    padding:10px;
 }
+.footer{
+    background: var(--footer);
+    padding:10px;
+    text-align:center;
+    font-size: 38px;
+    border:6px solid var(--border);
+}
 .container div.footer{
   grid-area:footer;
   text-align: center;  
@@ -119,6 +126,16 @@ gap:15px;
 .container div.menu{
   grid-area:menu;
   text-align: center;  
+  h2{
+    font-family:Impact, sans-serif;
+    font-size: 40px;
+     /*the color inside the text*/
+    -webkit-text-fill-color:rgb(33, 92, 218);
+    /*the outline thickness and color*/
+    -webkit-text-stroke:0.05px rgb(0, 0, 0);
+  }
+  background: var(--accent);
+  border:5px solid var(--main);
 }
 .container div.content{
   grid-area:content;
