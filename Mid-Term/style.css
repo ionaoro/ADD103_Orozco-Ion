@@ -1,0 +1,36 @@
+:root{
+    --main: rgb(0, 0, 0);
+    --accent:rgba(189, 179, 179, 0.87);
+    --left-side:rgba(20, 170, 65, 0.804);
+    --border:rgb(245, 245, 245);
+    --container:rgb(243, 191, 19);
+    --footer:rgb(233, 129, 10);
+    --mid-tone:rgba(133, 127, 127, 0.589);
+}
+/* MOBILE (Default) - 1 Column */
+.product-grid {
+    display: grid;
+    grid-template-columns: 1fr; 
+    gap: 20px;
+}
+
+/* TABLET - 2 Columns */
+@media (min-width: 600px) {
+    .product-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* DESKTOP - 4 Columns */
+@media (min-width: 1000px) {
+    .product-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+/*Media queries*/
+body{
+    background: var(--main);
+    color:black;
+    font-size:larger;
+    font-family:Impact, sans-serif;
+}
