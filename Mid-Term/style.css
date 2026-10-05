@@ -30,12 +30,13 @@
 /*Media queries*/
 .header{
     background: var(--footer);
-    min-height: 30px;
-    min-width: 30px;
+    min-height: 25px;
+    min-width: 25px;
     border:5px solid var(--border);
-    border-radius:50%;
     text-align: center;
-    font-size: 50px;
+    font-size: 70px;
+    gap:5px;
+    margin:28px;
     font-weight:bold;
     /*the color inside the text*/
     -webkit-text-fill-color:black;
@@ -68,15 +69,38 @@ body{
    background: var(--mid-tone);
    padding:10px;
 }
-.left-side{
-    background: var(--left-side);
-    max-height:45%;
-    max-width:25%;
+.container .left-side{
+     background:#424040da;
+    max-height:60%;
+    max-width:50%;
     margin:6px;
     border:var(--border) 2px solid;
     text-align: center;
-    font-size:26px;
+    font-size:35px;
     grid-template-columns:1fr,1fr;
+           /*the color inside the text*/
+    -webkit-text-fill-color:white;
+    /*the outline thickness and color*/
+    -webkit-text-stroke:1px rgb(0, 0, 0);
+}
+.left-side{
+    background:#ad0606;
+    max-height:60%;
+    max-width:50%;
+    margin:6px;
+    border:var(--accent) 2px solid;
+    text-align: center;
+    font-size:33px;
+    grid-template-columns:1fr,1fr;
+}
+p,
+a,
+h1
+h2
+h3{
+    font-family:Impact, sans-serif;
+    color: var(--main);
+    font-size: 22px;
 }
 .footer{
     background: var(--footer);
