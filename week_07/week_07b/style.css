@@ -209,3 +209,9 @@ h3{
     visibility: visible;
     opacity: 1;
 } /* This targets the nested .tooltiptext child element ONLY when the parent .tooltip element is hovered over */
+nav{
+    a{
+        font-size: 36px;
+        text-align: center;
+    }
+}

@@ -28,9 +28,95 @@
     }
 }
 /*Media queries*/
+.header{
+    background: var(--footer);
+    min-height: 30px;
+    min-width: 30px;
+    border:5px solid var(--border);
+    border-radius:50%;
+    text-align: center;
+    font-size: 50px;
+    font-weight:bold;
+    /*the color inside the text*/
+    -webkit-text-fill-color:black;
+    /*the outline thickness and color*/
+    -webkit-text-stroke:0.2px rgb(195, 33, 4);
+}
 body{
     background: var(--main);
     color:black;
     font-size:larger;
     font-family:Impact, sans-serif;
+}
+.container{
+    width:90%;
+   max-width:1200px;
+    background: var(--left-side);
+    min-height:500px;
+    margin:20px auto;
+    display:grid;
+      grid-template-areas:"header header" " menu content" "footer footer";
+    grid-template-columns:14px;
+     border:6px solid;
+    border-color:var(--container);
+     display:grid;
+    grid-template-columns: 3fr 3fr;
+    gap:3px;
+    padding:10px;
+}
+.container div{
+   background: var(--mid-tone);
+   padding:10px;
+}
+.left-side{
+    background: var(--left-side);
+    max-height:45%;
+    max-width:25%;
+    margin:6px;
+    border:var(--border) 2px solid;
+    text-align: center;
+    font-size:26px;
+    grid-template-columns:1fr,1fr;
+}
+.footer{
+    background: var(--footer);
+    padding:10px;
+    text-align:center;
+    font-size: 38px;
+    border:6px solid var(--border);
+}
+.container div.footer{
+  grid-area:footer;
+  text-align: center;  
+  max-height:100%;
+  max-width:100%;
+  margin:0;
+}
+.container div.menu{
+  grid-area:menu;
+  text-align: center;  
+  h2{
+    font-family:Impact, sans-serif;
+    font-size: 40px;
+     /*the color inside the text*/
+    -webkit-text-fill-color:rgb(33, 92, 218);
+    /*the outline thickness and color*/
+    -webkit-text-stroke:0.05px rgb(0, 0, 0);
+  }
+  background: var(--accent);
+  border:5px solid var(--main);
+}
+.container div.content{
+  grid-area:content;
+  text-align: center;  
+h3{
+        font-family:Impact, sans-serif;
+    font-size: 40px;
+     /*the color inside the text*/
+    -webkit-text-fill-color:rgb(33, 92, 218);
+    /*the outline thickness and color*/
+    -webkit-text-stroke:0.05px rgb(0, 0, 0);
+}
+  background: var(--accent);
+  border:5px solid var(--main);
 }
