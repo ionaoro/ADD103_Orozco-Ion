@@ -110,6 +110,9 @@ body{
     text-align: center;
     font-size:33px;
     grid-template-columns:1fr,1fr;
+ -webkit-text-fill-color:white;
+    /*the outline thickness and color*/
+    -webkit-text-stroke:1.03px rgb(0, 0, 0);
 }
 p,
 a,
@@ -119,6 +122,7 @@ h3{
     font-family:Impact, sans-serif;
     color: var(--main);
     font-size: 22px;
+    text-align: center;
 }
 .footer{
     background: var(--footer);
@@ -133,6 +137,20 @@ h3{
   max-height:100%;
   max-width:100%;
   margin:0;
+}
+.container div.header{
+  grid-area:header;
+  text-align: center;  
+  h3{
+    font-family:Impact, sans-serif;
+    font-size: 50px;
+     /*the color inside the text*/
+    -webkit-text-fill-color:var(--border);
+    /*the outline thickness and color*/
+    -webkit-text-stroke:1.2px #ad0606;
+  }
+  background: var(--main);
+  border:5px solid var(--border);
 }
 .container div.menu{
   grid-area:menu;
