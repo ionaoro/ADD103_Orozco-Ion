@@ -30,8 +30,8 @@
 /*Media queries*/
 .header{
     background: var(--footer);
-    min-height: 25px;
-    min-width: 25px;
+   min-height: 65px;
+    min-width: 65px;
     border:5px solid var(--border);
     text-align: center;
     font-size: 70px;
