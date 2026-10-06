@@ -147,6 +147,7 @@ h3{
   }
   background: var(--accent);
   border:5px solid var(--main);
+
 }
 .container div.content{
   grid-area:content;
