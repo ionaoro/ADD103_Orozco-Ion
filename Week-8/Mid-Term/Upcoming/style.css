@@ -36,8 +36,8 @@ body{
 }
 .header{
     background: var(--footer);
-    min-height: 50%;
-    min-width: 50%;
+    min-height: 86px;
+    min-width: 70px;
     border:5px solid var(--border);
     border-radius:50%;
     text-align: center;
@@ -49,7 +49,7 @@ body{
     -webkit-text-stroke:0.2px rgb(195, 33, 4);
         a{
             text-align: center;
-        font-size:46px
+        font-size:38px
     }
 }
 /*text outline sourced from google search*/
