@@ -43,6 +43,24 @@
     /*the outline thickness and color*/
     -webkit-text-stroke:0.2px rgb(195, 33, 4);
 }
+.container-header{
+    .container-header .container div{
+  background: var(--footer);
+      border:5px solid var(--border);
+    }
+    min-height: 25px;
+    min-width: 25px;
+
+    text-align: center;
+    font-size: 70px;
+    gap:5px;
+    margin:28px;
+    font-weight:bold;
+    /*the color inside the text*/
+    -webkit-text-fill-color:black;
+    /*the outline thickness and color*/
+    -webkit-text-stroke:0.2px rgb(195, 33, 4);
+}
 body{
     background: var(--main);
     color:black;
