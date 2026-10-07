@@ -127,6 +127,20 @@ h3{
     font-size: 22px;
     text-align: center;
 }
+.photo-wall{
+display: grid;
+columns: repeat (3,1fr);
+gap:15px;
+text-align: center;
+  grid-template-columns: 1fr; 
+}
+ .photo-wall img{
+    max-width: 100%;
+    max-height:100%;
+    display:block;
+    object-fit: cover;
+      grid-template-columns: 1fr; 
+}
 .footer{
     background: var(--footer);
     padding:10px;
@@ -168,7 +182,8 @@ h3{
   }
   background: var(--accent);
   border:5px solid var(--main);
-
+max-width:60%;
+max-height:60%
 }
 .container div.content{
   grid-area:content;
