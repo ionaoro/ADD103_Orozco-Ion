@@ -79,7 +79,6 @@ body{
     min-height:500px;
     margin:20px auto;
     display:grid;
-      grid-template-areas:"header header" " menu content" "footer footer";
     grid-template-columns:14px;
      border:6px solid;
     border-color:var(--container);
