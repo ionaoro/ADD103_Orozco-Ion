@@ -48,7 +48,7 @@ body{
 }
 .header{
 grid-column:span 4;
-background: var(--accent);
+background: var(--main);
 color:var(--container);
 min-height:100px;
 width:90%;
@@ -59,7 +59,7 @@ h2{
 }
 .left-side{
  grid-column:span 1;
- border:2px solid var(--border);
+ border:2px solid var(--footer);
  min-height:500px;
 }
 .content{
