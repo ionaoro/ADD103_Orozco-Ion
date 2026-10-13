@@ -41,6 +41,7 @@ body{
     min-height:500px;
     margin:20px auto;
     display:grid;
+    /*define 4 equal columns*/
     grid-template-columns: repeat (4,1fr);
     gap:30px;
     padding:10px;
@@ -51,8 +52,7 @@ grid-column:span 4;
 background: var(--main);
 color:var(--container);
 min-height:100px;
-width:90%;
-margin:10px auto;
+/*Width and height margin removed to prevent grid breaking*/
 h2{
     color:var(--container)
 }
