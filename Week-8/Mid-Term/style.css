@@ -57,3 +57,18 @@ h2{
     color:var(--container)
 }
 }
+.left-side{
+ grid-column:span 1;
+ border:2px solid var(--border);
+ min-height:500px;
+}
+.content{
+    grid-column: span 3;
+    border:2px solid var(--footer);
+    min-height:500px;
+}
+.footer{
+    grid-column:span 4;
+    border:2px solid var(--footer);
+    min-height:100px;
+}
