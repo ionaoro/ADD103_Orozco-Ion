@@ -58,9 +58,15 @@ font-size: 33px;
 /*Width and height margin removed to prevent grid breaking*/
 h2{
         /*the color inside the text*/
-    -webkit-text-fill-color:var(--container);
+    -webkit-text-fill-color:var(--accent);
     /*the outline thickness and color*/
     -webkit-text-stroke:0.05px var(--footer);
+}
+a{
+    font-size: 30px;
+}
+h1{
+    font-size: 65px;
 }
 }
 nav{
@@ -87,4 +93,8 @@ footer{
     grid-column:span 4;
     border:2px solid var(--border);
     min-height:100px;
+}
+h1,h2,h3,p{
+    font-size: 40px;
+    color:var(--text)
 }
