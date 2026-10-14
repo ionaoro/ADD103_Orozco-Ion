@@ -1,11 +1,12 @@
 :root{
     --main:rgba(0, 0, 0, 0.877);
-    --accent:rgba(189, 179, 179, 0.87);
+    --accent:rgba(179, 176, 176, 0.651);
     --left-side:black;
     --border: #ad0606;
     --container: #333;
-    --footer:rgb(233, 129, 10);
+    --footer:rgb(18, 57, 183);
     --mid-tone:rgba(133, 127, 127, 0.589);
+    --text:ghostwhite;
 }
 /* MOBILE (Default) - 1 Column */
 .product-grid {
@@ -17,14 +18,14 @@
 /* TABLET - 2 Columns */
 @media (min-width: 600px) {
     .product-grid {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns:repeat(2, 1fr);
     }
 }
 
 /* DESKTOP - 4 Columns */
 @media (min-width: 1000px) {
     .product-grid {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns:repeat(4, 1fr);
     }
 }
 /*Media queries*/
@@ -42,32 +43,44 @@ body{
     margin:20px auto;
     display:grid;
     /*define 4 equal columns*/
-    grid-template-columns: repeat (4,1fr);
+    grid-template-columns: repeat(4,1fr);
     gap:30px;
     padding:10px;
       border:6px solid var(--border);
 }
-.header{
+header{
+    text-align: center;
 grid-column:span 4;
 background: var(--main);
-color:var(--container);
+color:var(--text);
 min-height:100px;
+font-size: 33px;
 /*Width and height margin removed to prevent grid breaking*/
 h2{
     color:var(--container)
+   
 }
+}
+nav{
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 .left-side{
  grid-column:span 1;
+ background: var(--mid-tone);
  border:2px solid var(--border);
  min-height:500px;
+ margin:2px;
+ text-align: center;
 }
 .content{
     grid-column: span 3;
     border:2px solid var(--border);
     min-height:500px;
+    text-align: center;
 }
-.footer{
+footer{
+    text-align: center;
     grid-column:span 4;
     border:2px solid var(--border);
     min-height:100px;
