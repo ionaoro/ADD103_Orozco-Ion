@@ -1,0 +1,29 @@
+:root{
+    --main:rgb(8, 92, 19);
+    --secondary:rgb(72, 119, 79);
+    --border:rgb(250, 178, 45);
+    --container:rgba(209, 132, 132, 0.781);
+    --header:rgba(248, 157, 82, 0.753);
+    --footer:rgba(139, 69, 19, 0.753);
+    --text:rgb(255, 255, 255);
+}
+
+body{
+    background-color: var(--main);
+    color: var(--text);
+}
+
+.container{
+    background:var(--container);
+}
+.container-fluid{
+    background:var(--secondary);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    color:var(--text)
+}
