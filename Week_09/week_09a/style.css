@@ -1,0 +1,64 @@
+:root{
+    --main:rgb(8, 92, 19);
+    --secondary:rgb(72, 119, 79);
+    --border:rgb(250, 178, 45);
+    --container:rgba(209, 132, 132, 0.781);
+    --header:rgba(248, 157, 82, 0.753);
+    --footer:rgba(139, 69, 19, 0.753);
+    --text:rgb(255, 255, 255);
+}
+
+body{
+    background-color: var(--main);
+    color: var(--text);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:45px;
+    text-align:center;
+}
+
+.container{
+    background:var(--container);
+    color:var(--text);
+    h1{
+        color:var(--header);
+        text-align:center;
+    }
+}
+.container-fluid{
+    background:var(--secondary);
+    color:var(--footer);
+    margin:6px;
+    padding:3px;
+    h1{
+        color:var(--border);
+        text-align:center;
+    }
+}
+
+.col{
+    border:1px solid var(--border);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    color:var(--text);
+    text-align:center;
+    font-size:larger;
+}
+p,a{
+    color:var(--text);
+    text-align:center;
+    font-size:30px;
+}
+footer{
+    margin:9px;
+    padding:0;
+    background:var(--footer);
+    border:1px solid var(--border);
+    color:var(--text);
+    text-align:center;
+    font-size:larger;
+}
