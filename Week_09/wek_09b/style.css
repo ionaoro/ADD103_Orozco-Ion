@@ -56,6 +56,7 @@ header, footer{
         text-align:center;
     }
     border:4px solid var(--border);
+    padding:10px;
 }
 .container-fluid{
     background:var(--header);
@@ -69,4 +70,13 @@ header, footer{
     display:block;
     width:100%;
     margin:0;
+}
+.content{
+width:80%;
+ margin:80px;
+padding:0;
+background-color: var(--content);
+border:8px solid var(--container-div);
+text-align: center;
+color: var(--header);
 }
