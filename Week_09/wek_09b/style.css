@@ -1,0 +1,33 @@
+:root{
+    --background:rgb(71, 48, 48);
+    --header: rgb(245, 239, 230);
+    --container-div: rgb(200, 140, 139);
+    --container: rgb(184, 111, 91);
+    --content: rgb(140, 146, 116);
+    --border: rgb(185, 154, 99);
+}
+body{
+    background-color: var(--background);
+    color: var(--header);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:48px;
+    text-align:center;
+}
+.container{
+    background:var(--container);
+    color:var(--text);
+    h1{
+        color:var(--header);
+        text-align:center;
+    }
+}
+.container-fluid{
+    background:var(--secondary);
+    color:var(--footer);
+    margin:6px;
+    padding:3px;
+    h1{
+        color:var(--border);
+        text-align:center;
+    }
+}
