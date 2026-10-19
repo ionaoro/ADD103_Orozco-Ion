@@ -13,6 +13,16 @@ body{
     font-size:48px;
     text-align:center;
 }
+main{
+    min-height: 600px;
+    background-color:var(--content);
+    margin: 20px auto;
+    min-width:500px;
+    color:var(--header);
+    h2{
+        text-align:center;
+    }
+}
 header, footer{
     background-color: var(--header);
     border-radius: 50px;
