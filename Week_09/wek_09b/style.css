@@ -48,6 +48,13 @@ header, footer{
     padding:20px;
     }
 }
+.card{
+    p{
+        text-align:center;
+        font-weight:bold;
+        color:var(--container);
+    }
+}
 .container{
     background:var(--container);
     color:ghostwhite;
