@@ -26,10 +26,10 @@ main{
 nav{
     max-width: 90%;
     margin:20px auto;
-    a{
+    .my-link{
         color:magenta;
     }
-    a :hover{
+    .my-link{
         color:blue;
     }
 }
