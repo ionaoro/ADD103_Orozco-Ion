@@ -23,6 +23,16 @@ main{
         text-align:center;
     }
 }
+nav{
+    max-width: 90%;
+    margin:20px auto;
+    a{
+        color:magenta;
+    }
+    a :hover{
+        color:blue;
+    }
+}
 header, footer{
     background-color: var(--header);
     border-radius: 50px;
@@ -54,6 +64,16 @@ header, footer{
         font-weight:bold;
         color:var(--container);
     }
+}
+.card-title{
+    text-align:center;
+    font-weight:bold;
+    color:var(--container);
+}
+.card-text{
+    text-align:center;
+    font-weight:bold;
+    color:var(--background);
 }
 .container{
     background:var(--container);
