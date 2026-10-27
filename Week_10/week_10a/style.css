@@ -1,6 +1,10 @@
 :root {
   color-scheme: light dark;
   --page-max: 60rem;
+    --secondary:rgba(75, 88, 77, 0.856);
+    --border:rgb(26, 36, 121);
+    --header:rgba(236, 114, 13, 0.932);
+    --footer:rgb(216, 179, 152);
 }
 
 /* 🧱 Basic typography + spacing for the page. */
@@ -15,6 +19,11 @@ body {
   max-width: var(--page-max);
   margin: 0 auto;
   padding: 2rem 1rem 3rem;
+}
+.header{
+    background-color: var(--header);
+    text-align: center;
+    border:3px solid var(--border);
 }
 
 /* 📝 “Hint” text is still readable, just a little quieter than headings. */
@@ -31,6 +40,7 @@ body {
   margin: 1.5rem 0 0;
   border-radius: 0.75rem;
   overflow: clip;
+  border:var(--border);
 }
 
 /* 🖼️ Responsive image rule:

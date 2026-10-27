@@ -8,11 +8,12 @@
 </head>
 <body>
      <main class="page">
-      <h1>&lt;picture&gt; element demo</h1>
+        <div class="header">
+      <h1>Costume Ideas</h1>
       <p class="hint">
-        Responsive images = the browser downloads the “right” image file for
-        the screen size (and display density).
+        To view alternative options: Adjust the index page size!
       </p>
+      </div>
       <!-- https://www.w3schools.com/tags/tag_picture.asp code based on w3schools -->
 <figure class="photo">
         <!-- 🖼️ <picture> = art direction (different crops/compositions for different screens). -->
@@ -22,20 +23,14 @@
           <!-- 📱 Phone/small screens: use the close-up file -->
           <source
             media="(max-width: 699px)"
-            srcset="images/lookout_closeup.webp"
+            srcset="images/cost-1.jpg"
             type="image/webp"
           />
           <!-- 🖥️ Desktop/large screens: use the wide landscape file -->
           <source
             media="(min-width: 700px)"
-            srcset="images/lookout.webp"
+            srcset="images/cost-4.jpg"
             type="image/webp"
-          />
-           <img
-            src="images/cost-1.jpg"
-            alt="A lookout point with a sweeping view of the landscape."
-            loading="lazy"
-            decoding="async"
           />
         </picture>
         <figcaption>
@@ -49,17 +44,17 @@
         <picture>
           <source
             media="(max-width: 699px)"
-            srcset="images/cost-2.jpg"
+            srcset="images/cost-6.jpg"
             type="image/jpg"
           />
           <source
             media="(min-width: 700px)"
-            srcset=""
+            srcset="images/cost-5.jpg"
             type="image/webp"
           />
           <img
             src="images/cost-3.jpg"
-            alt="Sparky and Dot, rubber ducks, looking at a waterfall."
+            alt="Dramatically lit steam punk styled gas mask with large sharp spikes around the forehead and mouth piece.."
             loading="lazy"
             decoding="async"
           />
