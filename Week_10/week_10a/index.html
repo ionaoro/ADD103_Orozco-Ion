@@ -16,9 +16,6 @@
       </div>
       <!-- https://www.w3schools.com/tags/tag_picture.asp code based on w3schools -->
 <figure class="photo">
-        <!-- 🖼️ <picture> = art direction (different crops/compositions for different screens). -->
-        <!-- 📱💻🖥️ The browser checks <source> tags top-to-bottom and picks the FIRST one whose media query matches. -->
-        <!-- 🧠 The <img> is the fallback AND the place we put alt text (for accessibility). -->
         <picture>
           <!-- 📱 Phone/small screens: use the close-up file -->
           <source
@@ -34,13 +31,10 @@
           />
         </picture>
         <figcaption>
-          Uses <code>&lt;picture&gt;</code> with <code>media</code> to choose
-          between <code>lookout_closeup.webp</code> (small screens) and
-          <code>lookout.webp</code> (large screens).
-        </figcaption>
+          </figcaption>
       </figure>
       <figure class="photo">
-        <!-- 🏞️ Same idea: <picture> lets us swap images based on screen size (art direction). -->
+      
         <picture>
           <source
             media="(max-width: 699px)"
@@ -60,9 +54,10 @@
           />
         </picture>
           <figcaption>
-          Uses <code>&lt;picture&gt;</code> with <code>media</code> to choose
-          between <code>waterfall_1_close.webp</code> (small screens) and
-          <code>waterfall_1.webp</code> (large screens).
+         Here we have two COOL options for history themed costumes,
+           you could either go the Sci-Fi route, with this awesome 
+           outfit! And alternatively you can go for something much 
+           more simple like this pirate costume.
         </figcaption>
       </figure>
 
@@ -73,10 +68,7 @@
       </p>
 
       <figure class="photo">
-        <!-- 🖼️ srcset = “same image, multiple file sizes” (NOT different crops). -->
-        <!-- 📐 The “w” numbers are the image widths in pixels (480w = a 480px-wide file). -->
-        <!-- 📏 sizes tells the browser how wide the image will DISPLAY in the layout, so it can pick the best srcset candidate. -->
-        <!-- 📲 On small screens we let it be 100vw (full viewport width). On bigger screens it caps at the page width (60rem). -->
+     
         <img
           src="images/waterfall_1-960.jpg"
           srcset="
