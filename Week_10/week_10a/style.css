@@ -69,3 +69,10 @@ body {
   font-size: 0.95rem;
   opacity: 0.9;
 }
+.footer{
+  background-color: var(--footer);
+  border: 6px solid var(--header);
+  font-family: 'Courier New', Courier, monospace;
+  font-size:22px;
+text-align: center;
+}
