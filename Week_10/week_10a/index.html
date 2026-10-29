@@ -21,13 +21,19 @@
           <source
             media="(max-width: 699px)"
             srcset="images/cost-1.jpg"
-            type="image/jpg"
+            type="image/jpeg"
           />
           <!-- 🖥️ Desktop/large screens: use the wide landscape file -->
           <source
             media="(min-width: 700px)"
             srcset="images/cost-1.webp"
             type="image/webp"
+          />
+          <img
+            src="images/cost-1.jpg"
+            alt="Costume idea."
+            loading="lazy"
+            decoding="async"
           />
         </picture>
         <figcaption>
@@ -40,12 +46,12 @@
           <source
             media="(max-width: 699px)"
             srcset="images/cost-6.jpg"
-            type="image/jpg"
+            type="image/jpeg"
           />
           <source
             media="(min-width: 700px)"
             srcset="images/cost-5.jpg"
-            type="image/webp"
+            type="image/jpeg"
           />
           <img
             src="images/cost-3.jpg"
@@ -71,16 +77,18 @@
       <figure class="photo">
      
         <img
-          src="images/waterfall_1-960.jpg"
+          src="images/cost-4.jpg"
           srcset="
-            images/waterfall_1-480.jpg 480w,
-            images/waterfall_1-960.jpg 960w,
-            images/waterfall_1-1440.jpg 1440w
+            images/cost-4-480.jpg 480w,
+            images/cost-4-960.jpg 960w,
+            images/cost-4-1440.jpg 1440w
           "
           sizes="(max-width: 699px) 100vw, 60rem"
           alt="A waterfall cascading down rock steps into a pool."
           loading="lazy"
           decoding="async"
         />
+      </figure>
+    </main>
     </body>
 </html>
