@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>JavaScript Image Change</h1>
+        <!-- (div>img)*5 -->
+        <div class="grid-container">
+            <div><img src="images/doughnut Drake.png" alt="YouTube thumbnail of the main character Nathan Drake from Uncharted appearing overweight"
+               data-caption="Nathan Drake takes on a sweeter, doughnut-inspired look."
+               onclick="change(this)">100% Uncharted 2</div>
+            <div><img src="images/Terrible Lizards.png" alt="Terrifying photo of a mutant dinosaur with a human skull lodged inside the throat"
+                data-caption="Lets dive Deep into the world of Mascot-Horror with TERRIBLE LIZARDS."
+                onclick="change(this)">PERFECT Mascot-Horror</div>
+            <div><img src="images/Metal Gear Chicken.png" alt="YouTube thumbnail of claymation chickens dressed as Metal Gear Solid characters"
+               data-caption="Claymation chickens suit up for a Metal Gear-style mission."
+               onclick="change(this)">Chicken Soldiers</div>
+            <div><img src="images/Flip Side.png" alt="YouTube thumbnail featuring a dramatically lit bear animatronic with white glowing eyes, followed by the Five Nights At Freddy's logo behind the figure"
+               data-caption="When a 'fan-game' outshines the original!"
+               onclick="change(this)">FNAF in 1972</div>
+            <div><img src="images/Hokage.png" alt="YouTube thumbnail of a character from the anime series Naruto with the game cover for PS2 game Naruto: Uzumaki Chronicles"
+               data-caption="Becoming a Shinobi in the world of Naruto"
+               onclick="change(this)">I BECAME HOKAGE</div>
+        </div>
+        <div>
+            <img src="images/Hokage.png" id="large" alt="YouTube thumbnail of a character from the anime series Naruto with the game cover for PS2 game Naruto: Uzumaki Chronicles">
+            <p id="image-caption">Becoming a Shinobi in the world of Naruto</p>
+        </div>
+    </div>
+    <script>
+        /* https://www.w3schools.com/js/tryit.asp?filename=tryjs_intro_lightbulb */
+
+        /* change the image */
+        function change(thumbnail) {
+            const largeImage = document.getElementById("large");
+            largeImage.src = thumbnail.src;
+            largeImage.alt = thumbnail.alt;
+            document.getElementById("image-caption").textContent = thumbnail.dataset.caption;
+        }
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>

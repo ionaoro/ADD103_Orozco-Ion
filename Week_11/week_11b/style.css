@@ -1,0 +1,72 @@
+:root {
+    --gothic-ink: #100b12;
+    --panel: #1b141b;
+    --raised: #30222b;
+    --text: #e8dfd8;
+    --muted: #b7a7a5;
+    --accent: #ad0606;
+    --highlight: #c5a36b;
+}
+
+body {
+    background-color: var(--gothic-ink);
+    font-size: x-large;
+    font-family: "Work Sans", sans-serif;
+    line-height: 2;
+    color: var(--text);
+}
+
+.container {
+    width: 80%;
+    margin: 10px auto;
+    padding: 15px;
+    border: 2px solid var(--accent);
+    background-color: var(--panel);
+}
+
+img {
+    width: 40%;
+    margin: 15px auto;
+}
+
+h1 {
+    text-align: center;
+    color: var(--highlight);
+}
+
+.grid-container {
+    display: grid; /* Creates grid layout */
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 10px;
+    background-color: var(--gothic-ink);
+    padding: 10px;
+}
+
+.grid-container > div {
+    background-color: var(--raised);
+    color: var(--text);
+    font-size: 0.65em;
+    line-height: 1.4;
+    text-align: center;
+}
+
+.grid-container > div > img {
+    width: 75%;
+    margin: 10px auto;
+    display: block;
+    cursor: pointer;
+}
+
+#large {
+    width: 50%;
+    display: block;
+    margin: 25px auto;
+    padding: 20px;
+    background: var(--raised);
+}
+
+#image-caption {
+    margin: -15px auto 20px;
+    color: var(--muted);
+    text-align: center;
+}
