@@ -3,10 +3,19 @@
     --container: rgb(199, 157, 99);
     --text:rgb(0,0,0);
     --border: rgb(233, 232, 220);
+    --dark:rgba(222, 163, 0, 0.845);
+}
+.header{
+     border: 5px solid var(--dark);
+    background: var(--border);
+    color:var(--text);
+    margin-bottom: 8px;
+    border-radius:18px;
 }
 body {
     background-color: var(--main);
     color: var(--text);
+    text-align:center; 
 }
 
 summary {
@@ -47,4 +56,14 @@ details p {
     .container {
         grid-template-columns: 1fr;
     }
+}
+.footer{
+    margin-top: 21px;
+      border: 5px solid var(--dark);
+    background: var(--text);
+    color:var(--border);
+    border-radius:35px;
+}
+h2{
+    font-size: 40px;
 }
