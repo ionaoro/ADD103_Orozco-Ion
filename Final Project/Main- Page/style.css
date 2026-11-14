@@ -98,6 +98,13 @@ p{
         text-align: center;
      }
 }
+.container img{
+    display: block;
+    width: 100%;
+    max-width: 360px;
+    height: auto;
+    margin: 0 auto;
+}
 .footer{
      background:var(--container);
     max-height: 1000px;
