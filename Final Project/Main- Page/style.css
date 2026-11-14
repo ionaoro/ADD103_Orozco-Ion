@@ -16,8 +16,41 @@
 body {
     margin: 0;
     background: var(--ink);
-    color: var(--black);
+    color: var(--paper);
     font-family: "DM Sans", sans-serif;
+}
+
+.main-menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 18px 24px;
+    background: var(--card);
+    border-top: 1px solid var(--paper);
+    border-bottom: 1px solid var(--paper);
+}
+
+.main-menu a {
+    padding: 10px 16px;
+    border: 1px solid var(--paper);
+    border-radius: 6px;
+    color: var(--paper);
+    font-weight: 600;
+    text-decoration: none;
+    transition: background-color 160ms ease, color 160ms ease;
+}
+
+.main-menu a:hover,
+.main-menu a:focus-visible,
+.main-menu a[aria-current="page"] {
+    background: var(--paper);
+    color: var(--ink);
+}
+
+.main-menu a:focus-visible {
+    outline: 2px solid var(--paper);
+    outline-offset: 3px;
 }
 
 .page {
