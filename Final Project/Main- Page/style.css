@@ -7,6 +7,7 @@
     --paper: #b07438;
     --card: #391c1c;
     --text: rgb(0,0,0);
+    --container: rgba(10, 9, 9, 0.575);
 }
 
 * {
@@ -17,7 +18,7 @@ body {
     margin: 0;
     background: var(--ink);
     color: var(--paper);
-    font-family: "DM Sans", sans-serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow';
 }
 
 .main-menu {
@@ -63,5 +64,11 @@ body {
     max-width: 620px;
     margin: 0 auto 54px;
     text-align: center;
+    font-size:28px;
 }
-
+.container{
+    background:var(--container);
+    max-height: 1200px;
+     flex-wrap: wrap;
+     border:4px solid ghostwhite;
+}
