@@ -100,7 +100,7 @@ p{
 .tooltip .tooltiptext {
     visibility: hidden;
     width: 180px;
-    background-color: #bebdbd9a;
+    background-color: var(--card);
     color: #000000;
     text-align: center;
     border-radius: 6px;
@@ -144,7 +144,7 @@ p{
 .footer{
      background:var(--container);
     max-height: 1000px;
-    margin-top: auto;
+    margin-top: 10px;
     margin-left: 9px;
     margin-right: 9px;
     margin-bottom: 6px;
