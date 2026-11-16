@@ -100,7 +100,7 @@ p{
 .tooltip .tooltiptext {
     visibility: hidden;
     width: 180px;
-    background-color: var(--card);
+    background-color:rgba(224, 220, 220, 0.767);
     color: #000000;
     text-align: center;
     border-radius: 6px;
