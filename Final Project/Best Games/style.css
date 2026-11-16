@@ -107,7 +107,7 @@ h2{
 .container{
     width:90%;
    max-width:1200px;
-    background: var(--left-side);
+    background: var(--muted);
     min-height:500px;
     margin:20px auto;
     display:grid;
@@ -125,6 +125,6 @@ h2{
     text-align: center;
 }
 .container div{
-   background: var(--mid-tone);
+   background:#85092a85;
    padding:10px;
 }
