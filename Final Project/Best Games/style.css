@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Rajdhani:wght@500;600;700&display=swap');
+
+:root {
+    color-scheme: light;
+    --ink: #5c0d22;
+    --muted: #5e0f2acd;
+    --paper: #b07438;
+    --card: #391c1c;
+    --text: rgb(0,0,0);
+    --container: rgba(10, 9, 9, 0.575);
+    --accent: rgb(247, 239, 239);
+}
+.page-header{
+h1{
+font-size:50px;
+color:var(--paper);
+text-align: center;    
+}    
+ margin: 4px;
+ margin-bottom:9px;
+background:var(--ink);
+border-radius:60px;
+}
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: var(--paper);
+    color: var(--card);
+    font-family: "DM Sans", sans-serif;
+}
+.main-menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 18px 24px;
+    background: var(--card);
+    border-top: 1px solid var(--paper);
+    border-bottom: 1px solid var(--paper);
+}
+
+.main-menu a {
+    padding: 10px 16px;
+    border: 1px solid var(--paper);
+    border-radius: 6px;
+    color: var(--paper);
+    font-weight: 600;
+    text-decoration: none;
+    transition: background-color 160ms ease, color 160ms ease;
+}
+
+.main-menu a:hover,
+.main-menu a:focus-visible,
+.main-menu a[aria-current="page"] {
+    background: var(--paper);
+    color: var(--ink);
+}
+
+.main-menu a:focus-visible {
+    outline: 2px solid var(--paper);
+    outline-offset: 3px;
+}
+.photo-wall{
+display: grid;
+columns: repeat (3,1fr);
+gap:15px;
+text-align: center;
+h2{
+        font-family:Impact, sans-serif;
+    font-size: 38px;
+     /*the color inside the text*/
+    -webkit-text-fill-color:rgb(223, 0, 0);
+    /*the outline thickness and color*/
+    -webkit-text-stroke:0.05px rgb(0, 0, 0);
+}
+}
+ .photo-wall img{
+    max-width: 100%;
+    max-height:100%;
+    display:block;
+    object-fit: cover;
+}
+/*achieved through outside research using google search*/
+/* Ensure the anchor link fills its grid space */
+.wall-item {
+  display: block;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+/* Hover effect to make it obvious the image is clickable */
+.wall-item:hover {
+  transform: scale(1.03);
+}
+
+/* Force the image to fluidly fill the clickable link area */
+.wall-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Keeps image proportions clean */
+  display: block; /* Fixes unexpected whitespace gaps below images */
+}
+.container{
+    width:90%;
+   max-width:1200px;
+    background: var(--left-side);
+    min-height:500px;
+    margin:20px auto;
+    display:grid;
+      grid-template-areas:"header header" " menu content" "footer footer";
+    grid-template-columns:14px;
+     border:6px solid;
+    border-color:var(--container);
+     display:grid;
+    grid-template-columns: 3fr 3fr;
+    gap:3px;
+    padding:10px;
+}
+.container h1 {
+    font-size: 35px;
+    text-align: center;
+}
+.container div{
+   background: var(--mid-tone);
+   padding:10px;
+}

@@ -103,7 +103,7 @@ p{
     color: var(--accent);
 }
 
-.tooltip .tooltiptext {
+.tooltip .tooltip text {
     visibility: hidden;
     width: 180px;
     background-color:rgba(224, 220, 220, 0.767);
@@ -122,7 +122,7 @@ p{
     font-size:20px;
 }
 
-.tooltip:hover .tooltiptext {
+.tooltip:hover .tooltip text {
     visibility: visible;
     opacity: 1;
 }
