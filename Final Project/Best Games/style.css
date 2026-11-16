@@ -30,6 +30,20 @@ body {
     color: var(--card);
     font-family: "DM Sans", sans-serif;
 }
+h1,
+h2,
+h3 {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 600;
+    font-size: 29px;
+    text-align: center;
+}
+p{
+     font-family: "Rajdhani", sans-serif;
+     color:var(--accent);
+     font-size:20px;
+     text-align: center;
+}
 .main-menu {
     display: flex;
     justify-content: center;
@@ -54,8 +68,8 @@ body {
 .main-menu a:hover,
 .main-menu a:focus-visible,
 .main-menu a[aria-current="page"] {
-    background: var(--paper);
-    color: var(--ink);
+    background: var(--muted);
+    color: var(--text);
 }
 
 .main-menu a:focus-visible {
