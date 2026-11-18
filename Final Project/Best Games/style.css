@@ -102,21 +102,18 @@ p{
 }
 
 .photo-wall .wall-item {
-    display: flex;
-    justify-content: center;
-    justify-self: center;
-    width: 100%;
-    max-width: 220px;
-    aspect-ratio: 2 / 3;
-    box-sizing: border-box;
-    padding: 0;
-    border: 3px solid var(--ink);
+    flex-direction: column;
+    aspect-ratio: auto;
 }
 
 .photo-wall .wall-item img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    height: auto;
+    aspect-ratio: 2 / 3;
+}
+
+.photo-wall .wall-item p {
+    margin: 0;
+    padding: 8px;
 }
 
 @media (max-width: 700px) {
