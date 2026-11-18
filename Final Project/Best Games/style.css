@@ -94,7 +94,7 @@ p{
 
 .photo-wall .container {
     grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 15px;
+    gap: 10px;
 }
 
 .photo-wall .container > h2 {
