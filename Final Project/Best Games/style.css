@@ -82,6 +82,8 @@ p{
     text-align: center;
     background: var(--muted);
     border: 6px solid var(--container);
+    margin-top:2px;
+    margin:5.3px;
 }
 
 .photo-wall h2 {
