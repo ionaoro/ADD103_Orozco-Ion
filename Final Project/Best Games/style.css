@@ -81,7 +81,7 @@ p{
     display: block;
     text-align: center;
     background: var(--muted);
-    border: 6px solid var(--container);
+    border: 6px solid var(--text);
     margin-top:2px;
     margin:5.3px;
 }
@@ -172,6 +172,6 @@ p{
     text-align: center;
 }
 .container div{
-   background:#85092a85;
+   background:#2a010cb7;
    padding:10px;
 }
